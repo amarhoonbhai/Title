@@ -5,7 +5,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 import time
 import os
 
-TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN_HERE'
+TELEGRAM_BOT_TOKEN = '7699253029:AAG33ai0B-wL_-rzgSvlKW1nwOanVOrRMhU'
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("📸 Send me a screenshot of your Brawl Stars account, and I’ll generate a sales title instantly!")
